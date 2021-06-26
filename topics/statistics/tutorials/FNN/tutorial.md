@@ -224,7 +224,7 @@ For multiclass classification problems, the cross entropy is calculated as below
 
 $$ \mathcal{L}(\boldsymbol{\hat{y}^{(j)}}, \boldsymbol{y^{(j)}}) = - \sum_{i=1}^{c} \boldsymbol{y_{i}^{(j)}}ln(\boldsymbol{\hat{y}_{i}^{(j)}}) $$
 
-You can find the cross-entropy formula for binary and multilabel classifications in {% cite Bagheri %}. They are just special
+You can find the cross entropy formula for binary and multilabel classifications in {% cite Bagheri %}. They are just special
 cases of multiclass cross entropy and are not give here for the sake of brevity.
 
 The loss function is calculated for each training example in the training set. The average of the calculated loss functions
