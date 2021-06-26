@@ -153,7 +153,7 @@ back propagation learning algorithm, which changes network weights/biases based 
 of the activation function, which is zero. Hence, there would no weights/biases updates in back propagation.
 
 Sigmoid activation function can be used both at the output layer and hidden layers of a multilayer network. They
-allow the network to model non-linear realtionships between input and output. The problem with Sigmoid activation
+allow the network to model non-linear relationships between input and output. The problem with Sigmoid activation
 function is that the derivative values away from the origin are very small and quickly approach zero. In a multi
 layer network, in order to calculate weight updates in layers closer to the input layer, we use the chain rule
 which requires multiplying multiple Sigmoid derivative values (formula given in Backpropagation learning algorithm
